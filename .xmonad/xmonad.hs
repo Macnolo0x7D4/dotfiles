@@ -46,7 +46,7 @@ import XMonad.Prompt.XMonad
 import qualified XMonad.StackSet as W
 import qualified Data.Map        as M
 
-myTerminal      = "st"
+myTerminal      = "kitty"
 
 myFocusFollowsMouse :: Bool
 myFocusFollowsMouse = True
