@@ -286,6 +286,8 @@ myAdditionalKeys =
         , ("<XF86AudioPlay>", spawn (myTerminal ++ "mocp --play"))
         , ("<XF86AudioPrev>", spawn (myTerminal ++ "mocp --previous"))
         , ("<XF86AudioNext>", spawn (myTerminal ++ "mocp --next"))
+
+        , ("<Print>", spawn "xfce4-screenshooter")
        ]
 
 ------------------------------------------------------------------------
@@ -326,7 +328,7 @@ mySpacing i = spacingRaw False (Border 6 6 6 6) True (Border i i i i) True
 tall     = renamed [Replace "tall"]
            $ windowNavigation
            $ limitWindows 12
-           $ mySpacing 8
+           $ mySpacing 4
            $ ResizableTall 1 (3/100) (1/2) []
 
 monocle  = renamed [Replace "monocle"]
