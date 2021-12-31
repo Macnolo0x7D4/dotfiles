@@ -1,0 +1,3 @@
+[submodule ".dwm"]
+	path = .dwm
+	url = https://github.com/mcn2004/dwm
