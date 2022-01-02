@@ -6,9 +6,8 @@ export XDG_DATA_HOME=$HOME/.local/share
 
 export PATH=$PATH:$HOME/.local/bin
 
-/usr/bin/pipewire &
-/usr/bin/pipewire-pulse &
-/usr/bin/pipewire-media-session &
+export _JAVA_AWT_WM_NONREPARENTING=1
+export AWT_TOOLKIT=MToolkit
 
 /usr/lib/polkit-gnome/polkit-gnome-authentication-agent-1 &
 

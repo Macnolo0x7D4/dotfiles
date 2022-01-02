@@ -21,8 +21,7 @@
 *.color15:    #E6E6E6
 
 !! General Settings
-URxvt*imLocale: en_US.UTF-8
-URxvt.font: xft:FiraCode Nerd Font:size=12,xft:Noto Color Emoji:pixelsize=14
+URxvt.font: xft:MesloLGS Nerd Font:size=12:antialias=true,xft:Noto Color Emoji:pixelsize=14
 URxvt.letterSpace: 0
 URxvt.lineSpace: 0
 URxvt.geometry: 92x24
