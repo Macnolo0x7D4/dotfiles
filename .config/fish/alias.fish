@@ -1,4 +1,3 @@
-alias vim=nvim
 alias em='emacsclient -c'
 
 abbr -a gs  git status -sb
