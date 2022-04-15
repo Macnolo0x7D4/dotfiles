@@ -23,7 +23,7 @@
 *color15:     #eff0eb
 
 !! General Settings
-URxvt.font: xft:Hack:size=12:antialias=true,xft:Noto Color Emoji:pixelsize=14
+URxvt.font: xft:Hack Nerd Font:size=12:antialias=true,xft:Noto Color Emoji:pixelsize=14
 URxvt.letterSpace: 0
 URxvt.lineSpace: 0
 URxvt.geometry: 92x24
