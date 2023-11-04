@@ -1,13 +1,6 @@
 source ~/.config/fish/alias.fish
 
-function fish_greeting
-  pfetch
-end
-
-funcsave fish_greeting
-
-set EDITOR "emacsclient -t -a ''"
-set VISUAL "emacsclient -c -a emacs"
+set EDITOR "nvim ''"
 
 set -g fish_color_autosuggestion '555'  'brblack'
 set -g fish_color_cancel -r
