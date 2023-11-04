@@ -27,6 +27,37 @@ primary = #ffb52a
 secondary = #e60053
 alert = #bd2c40
 
+[bar/mainbar-i3]
+;monitor = ${env:MONITOR:HDMI-1}
+width = 100%
+height = 32
+;offset-x = 1%
+;offset-y = 1%
+radius = 0
+fixed-center = true
+
+background = ${colors.background}
+foreground = ${colors.foreground}
+
+line-size = 2
+line-color = #f00
+
+padding = 2
+
+module-margin = 3
+
+font-0 = "Codelia:weight=bold:pixelsize=11;4"
+font-1 = "Codelia Nerd Font:pixelsize=12;4"
+font-2 = "Codelia Nerd Font:pixelsize=13;2"
+
+modules-left = ewmh
+modules-center = date
+
+tray-detached = false
+tray-position = right
+tray-padding = 4
+
+
 [bar/xmonad]
 ;monitor = ${env:MONITOR:HDMI-1}
 width = 100%
@@ -46,11 +77,10 @@ padding = 2
 
 module-margin = 3
 
-font-0 = "Roboto:weight=bold:pixelsize=11;4"
-font-1 = "Hack Nerd Font:pixelsize=12;4"
-font-2 = "Hack Nerd Font:pixelsize=13;2"
+font-0 = "Codelia:weight=bold:pixelsize=11;4"
+font-1 = "Codelia Nerd Font:pixelsize=12;4"
+font-2 = "Codelia Nerd Font:pixelsize=13;2"
 
-modules-left = ewmh
 modules-center = date
 
 tray-detached = false
@@ -60,7 +90,7 @@ tray-padding = 4
 [module/ewmh]
 type = internal/xworkspaces
 
-pin-workspaces = false
+pin-workspaces = false 
 enable-click = true
 enable-scroll = true
 reverse-scroll = true
