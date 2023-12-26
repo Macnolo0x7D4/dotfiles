@@ -1,37 +1,37 @@
 [wifi]
-command=/usr/libexec/i3blocks/wifi
+command=~/.local/src/i3blocks-contrib/wifi/wifi
 INTERFACE=wlo1
 markup=pango
 interval=10
 
 [ssid]
-command=/usr/libexec/i3blocks/ssid
+command=~/.local/src/i3blocks-contrib/ssid/ssid
 INTERFACE=wlo1
 markup=pango
 interval=10
 
 [volume]
-command=/usr/libexec/i3blocks/volume-pulseaudio
+command=~/.local/src/i3blocks-contrib/volume-pulseaudio/volume-pulseaudio
 markup=pango
 interval=1
 
 [memory]
-command=/usr/libexec/i3blocks/memory
+command=~/.local/src/i3blocks-contrib/memory/memory
 markup=pango
 interval=10
 
 [cpu_usage2]
-command=/usr/libexec/i3blocks/cpu_usage2
+command=~/.local/src/i3blocks-contrib/cpu_usage2/cpu_usage2
 markup=pango
 interval=persist
 
 [xkb_layout]
-command=/usr/libexec/i3blocks/xkb_layout
+command=~/.local/src/i3blocks-contrib/xkb_layout/xkb_layout
 interval=persist
 markup=pango
 
 [battery]
-command=/usr/libexec/i3blocks/battery2
+command=~/.local/src/i3blocks-contrib/battery2/battery2
 markup=pango
 interval=10
 
