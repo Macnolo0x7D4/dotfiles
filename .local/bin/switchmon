@@ -1,0 +1,8 @@
+#!/bin/sh
+ 
+case "$1" in
+    eDP) xrandr --output eDP-1 --primary --auto --output HDMI-2 --off ;;
+    HDMI) xrandr --output HDMI-2 --primary --auto --output eDP-1 --off ;;
+    DUAL) xrandr --output HDMI-2 --primary --auto --output eDP-1 --auto --left-of HDMI-2 ;;
+    *) printf '%s\n' "You must provide an argument: eDP, HDMI or DUAL" ;;
+esac

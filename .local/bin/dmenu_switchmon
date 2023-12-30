@@ -1,0 +1,9 @@
+#!/bin/sh
+ 
+CHOICE=$(printf '%s\n' "eDP" "HDMI" "Dual" | dmenu -fn 'Hack Nerd Font-10' -p Monitor)
+ 
+case "$CHOICE" in
+    eDP) switchmon eDP ;;
+    HDMI) switchmon HDMI ;;
+    Dual) switchmon DUAL ;;
+esac
