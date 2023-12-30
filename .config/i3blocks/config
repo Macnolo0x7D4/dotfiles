@@ -1,3 +1,6 @@
+separator=true
+separator_block_width=20
+
 [wifi]
 command=~/.local/src/i3blocks-contrib/wifi/wifi
 INTERFACE=wlo1
@@ -11,7 +14,7 @@ markup=pango
 interval=10
 
 [volume]
-command=~/.local/src/i3blocks-contrib/volume-pulseaudio/volume-pulseaudio
+command=~/.local/src/i3blocks-contrib/volume-pipewire/volume-pipewire
 markup=pango
 interval=1
 
