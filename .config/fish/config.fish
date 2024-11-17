@@ -25,3 +25,10 @@ set -g fish_color_user brgreen
 set -g fish_color_valid_path --underline
 
 starship init fish | source
+
+# pnpm
+set -gx PNPM_HOME "/home/macnolo/.local/share/pnpm"
+if not string match -q -- $PNPM_HOME $PATH
+  set -gx PATH "$PNPM_HOME" $PATH
+end
+# pnpm end
